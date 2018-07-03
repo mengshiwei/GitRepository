@@ -28,6 +28,10 @@ public class DaoHome {
         return daoHome;
     }
 
+    /**
+     * 获取tab名称列表
+     * @return
+     */
     public List<String> getTabs() {
         List<String> list = new ArrayList<>();
         list.add(context.getString(R.string.tab_name_myview));
