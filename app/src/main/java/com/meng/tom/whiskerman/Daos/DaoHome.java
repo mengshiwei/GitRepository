@@ -38,6 +38,10 @@ public class DaoHome {
         return list;
     }
 
+    /**
+     * 获取主页面Fragments
+     * @return
+     */
     public List<Fragment> getFragments() {
         List<Fragment> list = new ArrayList();
         list.add(MyviewFragment.newInstance("Myview", "Fragment"));
