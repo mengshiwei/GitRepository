@@ -40,6 +40,7 @@ public class DaoHome {
 
     /**
      * 获取主页面Fragments
+     *
      * @return
      */
     public List<Fragment> getFragments() {
